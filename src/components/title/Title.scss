@@ -4,9 +4,13 @@
   text-align: center;
   h2 {
     background-color: $color-brown;
-    font-size: 60px;
+    font-size: 50px;
     text-transform: uppercase;
     font-family: $font-title;
     color: $color-green;
+    span {
+      font-family: $font-text;
+      color: $color-blue;
+    }
   }
 }

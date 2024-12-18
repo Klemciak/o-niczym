@@ -1,11 +1,15 @@
 import "./App.scss";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Title from "./components/title/Title";
+import Nav from "./components/navigation/Navigation";
 import Home from "./pages/home/Home";
 function App() {
   return (
     <div className="App">
       <Router>
+        <Title />
+        <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="/what" element={<What />} />
