@@ -2,12 +2,33 @@
 .title-wrap {
   width: 100%;
   text-align: center;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.2) 2%,
+    rgba(0, 0, 0, 0.2) 23%,
+    rgba(255, 253, 253, 0.2) 28%,
+    rgba(255, 255, 255, 0.2) 28%,
+    rgba(0, 0, 0, 0.2) 42%,
+    rgba(139, 139, 139, 0.2) 44%,
+    rgba(0, 0, 0, 0.2) 47%,
+    rgba(255, 255, 255, 0.2) 48%,
+    rgba(255, 255, 255, 0.2) 49%,
+    rgba(0, 0, 0, 0.2) 63%,
+    rgba(255, 255, 255, 0.2) 65%,
+    rgba(0, 0, 0, 0.2) 89%,
+    rgba(255, 255, 255, 0.2) 92%
+  );
+  backdrop-filter: blur(3px);
+  border-bottom: 10px solid rgba(0, 0, 0, 0.3);
+  cursor: default;
   h2 {
-    background-color: $color-brown;
     font-size: 50px;
     text-transform: uppercase;
     font-family: $font-title;
     color: $color-green;
+    margin-bottom: 10px;
+
+    text-shadow: 3px 3px 2px black;
     span {
       font-family: $font-text;
       color: $color-blue;
