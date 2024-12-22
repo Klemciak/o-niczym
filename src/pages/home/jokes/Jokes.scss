@@ -1,0 +1,33 @@
+@import "../../../variables.scss";
+.jokes-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  margin-bottom: 100px;
+}
+.joke {
+  width: 27%;
+  padding: 60px;
+  text-align: center;
+  text-shadow: 2px 2px 0px black;
+  img {
+    width: 100%;
+    filter: drop-shadow(-15px -15px 3px $color-blue)
+      drop-shadow(15px 15px 3px $color-green);
+    margin-bottom: 25px;
+    border: 7px ridge rgba(0, 0, 0, 1);
+  }
+  h3 {
+    font-family: $font-title;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: $color-pink;
+  }
+  p {
+    font-family: $font-text;
+    color: $color-green;
+    font-weight: bold;
+    font-size: 18px;
+  }
+}

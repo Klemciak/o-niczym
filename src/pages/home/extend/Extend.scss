@@ -1,0 +1,100 @@
+@import "../../../variables.scss";
+.extend-wrap {
+  padding: 50px;
+  overflow: hidden;
+}
+.extend-wrap h2 {
+  font-family: $font-text;
+  color: $color-blue;
+  margin: 20px 0;
+  font-size: 27px;
+  text-align: center;
+  text-shadow: 2px 2px 0px black;
+  text-transform: uppercase;
+  &:nth-of-type(1) {
+    border-top: 10px outset rgba(0, 0, 0, 0.8);
+    padding: 20px 0;
+  }
+  &:nth-of-type(2) {
+    border-bottom: 10px outset rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
+  }
+}
+.extend-img {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & div {
+    height: 350px;
+    flex-grow: 1;
+    margin: 0 15px;
+    transition: 0.5s;
+
+    &:hover {
+      flex-grow: 4;
+    }
+  }
+  &::before {
+    position: absolute;
+    top: 20%;
+    content: " ";
+    background-color: $color-green;
+    width: 200%;
+    height: 4px;
+    box-shadow: 0px 0px 20px $color-green, 0px 0px 20px $color-green,
+      0px 0px 20px $color-green, 0px 0px 20px $color-green,
+      0px 0px 20px $color-green, 0px 0px 20px $color-green,
+      0px 0px 20px $color-green;
+  }
+  &::after {
+    position: absolute;
+    bottom: 20%;
+    content: " ";
+    background-color: $color-blue;
+    width: 200%;
+    height: 4px;
+    box-shadow: 0px 0px 20px $color-blue, 0px 0px 20px $color-blue,
+      0px 0px 20px $color-blue, 0px 0px 20px $color-blue,
+      0px 0px 20px $color-blue, 0px 0px 20px $color-blue,
+      0px 0px 20px $color-blue;
+  }
+}
+.extend1,
+.extend2,
+.extend3,
+.extend4 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 10;
+
+  border: 10px black outset;
+  & .cover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0;
+
+    &:hover {
+      backdrop-filter: blur(0px);
+      background-color: none;
+    }
+  }
+}
+.extend1 {
+  background-image: url(../../../images/superhero1.jpg);
+}
+.extend2 {
+  background-image: url(../../../images/superhero2.jpg);
+}
+.extend3 {
+  background-image: url(../../../images/superhero3.jpg);
+}
+.extend4 {
+  background-image: url(../../../images/superhero4.jpg);
+}
