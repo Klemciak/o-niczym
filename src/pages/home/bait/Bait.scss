@@ -1,0 +1,58 @@
+@import "../../../variables.scss";
+.bait-wrap {
+  padding: 30px 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    font-family: $font-title;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+    filter: drop-shadow(-2px -2px 1px $color-blue)
+      drop-shadow(2px 2px 1px $color-green);
+  }
+
+  p {
+    font-family: $font-text;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: $color-pink;
+    text-shadow: 2px 2px 0px black;
+    margin-bottom: 20px;
+  }
+
+  .bait {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0);
+    position: relative; /* Dodaj pozycjonowanie dla przycisku */
+  }
+
+  button {
+    padding: 10px 5px;
+    font-size: 30px;
+    font-family: $font-text;
+    font-weight: bolder;
+    border: 7px ridge rgba(0, 0, 0, 0.8);
+    background: linear-gradient(-45deg, $color-green 25%, $color-blue 75%);
+    color: rgba(0, 0, 0, 0.801);
+    text-shadow: 2px 2px $color-pink;
+    cursor: pointer;
+
+    filter: drop-shadow(-6px -6px 7px $color-blue)
+      drop-shadow(6px 6px 7px $color-green);
+    &:active {
+      filter: drop-shadow(6px 6px 7px $color-blue)
+        drop-shadow(-6px -6px 7px $color-green);
+      background: linear-gradient(-45deg, $color-blue 25%, $color-green 75%);
+    }
+  }
+}

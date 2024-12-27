@@ -3,7 +3,7 @@ import "./Slides.scss";
 const Slide4 = () => {
   return (
     <div className="slide-text fourth">
-      <h2>Creature</h2>
+      <h2>Stworzenie</h2>
       <p>
         Na obrazie widoczne jest niezwykłe stworzenie przypominające hybrydę
         ważki i kameleona, zachwycające swoją unikalnością. Jego ciało pokryte

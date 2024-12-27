@@ -3,7 +3,7 @@ import "./Slides.scss";
 const Slide2 = () => {
   return (
     <div className="slide-text second">
-      <h2>Planets</h2>
+      <h2>Planety</h2>
       <p>
         Na obrazie przedstawiono wizję kosmosu, w którym widoczne są liczne
         planety o intensywnych kolorach fioletu i zieleni. Na pierwszym planie

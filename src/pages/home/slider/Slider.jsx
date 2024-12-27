@@ -35,7 +35,9 @@ const Slider = () => {
     <div className="slider-wrap">
       <div className="slides-container">
         <button className="arrow left-arrow" onClick={handlePrev}>
-          <span class="material-symbols-outlined left">arrow_upload_ready</span>
+          <span className="material-symbols-outlined left">
+            arrow_upload_ready
+          </span>
         </button>
         {slidesData.map((slide, index) => (
           <div key={index} className={`slide ${classes[index]}`}>
@@ -43,7 +45,7 @@ const Slider = () => {
           </div>
         ))}
         <button className="arrow right-arrow" onClick={handleNext}>
-          <span class="material-symbols-outlined right">
+          <span className="material-symbols-outlined right">
             arrow_upload_ready
           </span>
         </button>

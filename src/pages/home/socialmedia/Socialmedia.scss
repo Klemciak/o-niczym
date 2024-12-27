@@ -1,0 +1,30 @@
+@import "../../../variables.scss";
+.socialmedia-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.socialmedia-wrap a {
+  width: 15%;
+  transition: 0.6s;
+  &:hover {
+    scale: 1.1;
+  }
+  &:active {
+    scale: 0.9;
+  }
+}
+.socialmedia-wrap img {
+  opacity: 0.8;
+  filter: drop-shadow(-6px -6px 4px $color-blue)
+    drop-shadow(6px 6px 4px $color-green);
+  transition: 0.3s;
+  &:hover {
+    filter: drop-shadow(-6px -6px 4px $color-blue)
+      drop-shadow(6px 6px 4px $color-green)
+      drop-shadow(-6px -6px 4px $color-blue)
+      drop-shadow(6px 6px 4px $color-green);
+  }
+}

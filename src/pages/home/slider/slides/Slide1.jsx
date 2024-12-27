@@ -3,7 +3,7 @@ import "./Slides.scss";
 const Slide1 = () => {
   return (
     <div className="slide-text first">
-      <h2>Women</h2>
+      <h2>Kobieta</h2>
       <p>
         Na obrazie przedstawiona jest młoda kobieta o subtelnych rysach twarzy i
         intensywnym, hipnotyzującym spojrzeniu. Jej ciemne włosy opadają

@@ -3,7 +3,7 @@ import "./Slides.scss";
 const Slide3 = () => {
   return (
     <div className="slide-text third">
-      <h2>Men</h2>
+      <h2>Facet</h2>
       <p>
         Na obrazie widoczny jest młody mężczyzna o nowoczesnym wyglądzie, z
         wyrazistą fryzurą i brodą, co podkreśla jego pewność siebie. Ubrany w
