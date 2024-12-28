@@ -18,7 +18,7 @@ const Navigation = () => {
         </li>
         <li className="nav-element">
           <NavLink
-            to="/a-to-co"
+            to="/what"
             style={({ isActive }) => ({
               fontWeight: isActive ? "bold" : "normal",
             })}

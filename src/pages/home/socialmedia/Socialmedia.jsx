@@ -8,16 +8,16 @@ const Socialmedia = () => {
   return (
     <div className="socialmedia-wrap">
       <a href="https://x.com/">
-        <img src={twitter} alt="" />
+        <img src={twitter} alt="twitter" />
       </a>
       <a href="https://www.instagram.com/">
-        <img src={instagram} alt="" />
+        <img src={instagram} alt="instagram" />
       </a>
       <a href="https://workspace.google.com/intl/pl/gmail/">
-        <img src={email} alt="" />
+        <img src={email} alt="email" />
       </a>
       <a href="https://www.facebook.com/">
-        <img src={facebook} alt="" />
+        <img src={facebook} alt="facebook" />
       </a>
     </div>
   );
