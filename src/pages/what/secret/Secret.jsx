@@ -3,7 +3,7 @@ import "./Secret.scss";
 import Wave from "../../../images/hii-wave.gif";
 const RevealBoard = () => {
   const [positions, setPositions] = useState([
-    { id: 1, x: 50, y: 70 }, // Wartości w procentach
+    { id: 1, x: 55, y: 70 }, // Wartości w procentach
     { id: 2, x: 40, y: 55 },
     { id: 3, x: 60, y: 40 },
   ]);

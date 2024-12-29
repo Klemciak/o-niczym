@@ -6,6 +6,7 @@ import Nav from "./components/navigation/Navigation";
 import Home from "./pages/home/Home";
 import What from "./pages/what/What";
 import Footer from "./components/footer/Footer";
+
 function App() {
   return (
     <div className="App">
