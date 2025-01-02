@@ -1,0 +1,70 @@
+@import "../../../variables.scss";
+.coatings-wrap {
+  text-align: center;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  opacity: 0.6;
+  filter: brightness(0.9);
+  p {
+    font-size: 25px;
+    font-family: $font-text;
+    font-weight: bolder;
+    padding: 70px;
+  }
+  & p:nth-child(1) {
+    background-color: $color-green;
+    position: relative;
+    z-index: 10;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 10%;
+      width: 120px;
+      height: 120px;
+      background-color: $color-green;
+      border-radius: 50%;
+      transform: translate(-50%, 50%);
+    }
+  }
+  & p:nth-child(2) {
+    background-color: $color-blue;
+    position: relative;
+    z-index: 9;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 10%;
+      width: 120px;
+      height: 120px;
+      background-color: $color-blue;
+      border-radius: 50%;
+      transform: translate(50%, 50%);
+    }
+  }
+  & p:nth-child(3) {
+    background-color: $color-pink;
+    position: relative;
+    z-index: 8;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 120px;
+      height: 120px;
+      background-color: $color-pink;
+      border-radius: 50%;
+      transform: translate(-50%, 50%);
+    }
+  }
+  & p:nth-child(4) {
+    background-color: mix($color-blue, $color-pink);
+
+    z-index: 7;
+  }
+}
