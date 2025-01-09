@@ -56,3 +56,60 @@
     }
   }
 }
+@media (max-width: 1300px) {
+  .bait-wrap {
+    h2 {
+      font-size: 32px;
+      text-align: center;
+    }
+    p {
+      width: 75%;
+    }
+  }
+}
+@media (max-width: 800px) {
+  .bait-wrap {
+    padding: 20px 20px;
+    h2 {
+      font-size: 28px;
+    }
+    p {
+      width: 85%;
+      font-size: 22px;
+    }
+  }
+}
+@media (max-width: 540px) {
+  .bait-wrap {
+    padding: 20px 10px;
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      width: 92%;
+      font-size: 19px;
+    }
+  }
+}
+@media (max-width: 450px) {
+  .bait-wrap {
+    h2 {
+      font-size: 22px;
+    }
+    p {
+      width: 95%;
+      font-size: 15px;
+    }
+  }
+}
+@media (max-width: 340px) {
+  .bait-wrap {
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      width: 100%;
+      font-size: 12px;
+    }
+  }
+}

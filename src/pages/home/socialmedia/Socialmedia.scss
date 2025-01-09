@@ -2,6 +2,7 @@
 .socialmedia-wrap {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   text-align: center;
   padding-bottom: 100px;
@@ -26,5 +27,13 @@
       drop-shadow(6px 6px 4px $color-green)
       drop-shadow(-6px -6px 4px $color-blue)
       drop-shadow(6px 6px 4px $color-green);
+  }
+}
+@media (max-width: 500px) {
+  .socialmedia-wrap {
+    padding-bottom: 30px;
+  }
+  .socialmedia-wrap a {
+    width: 40%;
   }
 }

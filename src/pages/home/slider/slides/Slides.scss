@@ -57,6 +57,7 @@
     top: 2%;
     left: 4%;
     padding: 5px 10px;
+    font-size: 30px;
     color: $color-blue;
     text-shadow: 2px 2px 2px black;
     border-right: 2px solid black;
@@ -92,6 +93,58 @@
       background-color: rgba(30, 255, 0, 0.2);
       font-weight: bold;
       color: $color-pink;
+    }
+  }
+}
+@media (max-width: 1540px), (max-height: 840px) {
+  .slide-text {
+    h2 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}
+@media (max-width: 1235px), (max-height: 640px) {
+  .slide-text {
+    h2 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+}
+@media (max-width: 1000px), (max-height: 600px) {
+  .slide-text {
+    h2 {
+      font-size: 22px;
+    }
+    p {
+      width: 50%;
+    }
+  }
+}
+@media (max-width: 800px), (max-height: 500px) {
+  .slide-text {
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    h2 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
+}
+@media (max-width: 615px), (max-height: 360px) {
+  .slide-text {
+    h2 {
+      font-size: 15px;
+      padding: 2px 5px;
+    }
+    p {
+      display: none;
     }
   }
 }

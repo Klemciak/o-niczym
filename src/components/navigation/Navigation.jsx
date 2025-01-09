@@ -1,35 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navigation.scss";
 const Navigation = () => {
+  const [hamburger, setHamburger] = useState(false);
+  const toggleHamburger = () => {
+    setHamburger(!hamburger);
+  };
   const handleScrollToTop = () => {
     window.scrollTo({ top: 0 });
+    setHamburger(!hamburger);
   };
   return (
-    <nav className="nav-wrap">
-      <ul className="nav-list">
-        <li className="nav-element">
-          <NavLink to="/" onClick={handleScrollToTop}>
-            Główna
-          </NavLink>
-        </li>
-        <li className="nav-element">
-          <NavLink to="/what" onClick={handleScrollToTop}>
-            A tu co?
-          </NavLink>
-        </li>
-        <li className="nav-element">
-          <NavLink to="/about" onClick={handleScrollToTop}>
-            O nikim
-          </NavLink>
-        </li>
-        <li className="nav-element">
-          <NavLink to="/contact" onClick={handleScrollToTop}>
-            Kontakt?
-          </NavLink>
-        </li>
-      </ul>
-    </nav>
+    <>
+      <button
+        className={`hamburger ${hamburger ? "active" : ""}`}
+        onClick={toggleHamburger}
+      >
+        ☰
+      </button>
+      <nav className={`nav-wrap ${hamburger ? "active" : ""}`}>
+        <button className="hamburger-close" onClick={toggleHamburger}>
+          &#x2715;
+        </button>
+        <ul className="nav-list">
+          <li className="nav-element">
+            <NavLink to="/" onClick={handleScrollToTop}>
+              Główna
+            </NavLink>
+          </li>
+          <li className="nav-element">
+            <NavLink to="/what" onClick={handleScrollToTop}>
+              A tu co?
+            </NavLink>
+          </li>
+          <li className="nav-element">
+            <NavLink to="/about" onClick={handleScrollToTop}>
+              O nikim
+            </NavLink>
+          </li>
+          <li className="nav-element">
+            <NavLink to="/contact" onClick={handleScrollToTop}>
+              Kontakt?
+            </NavLink>
+          </li>
+        </ul>
+      </nav>
+    </>
   );
 };
 

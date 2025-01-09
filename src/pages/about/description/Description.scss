@@ -47,7 +47,35 @@
     filter: drop-shadow(7px 7px 12px rgba(0, 0, 0, 1));
   }
 }
+.team {
+  animation: showTeam 1s ease-out;
+}
 
+@keyframes showTeam {
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.building {
+  animation: showBuilding 1s ease-out;
+}
+
+@keyframes showBuilding {
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .team-text,
 .building-text {
   display: flex;

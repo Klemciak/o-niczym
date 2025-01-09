@@ -35,3 +35,43 @@
     }
   }
 }
+@media (max-width: 900px) {
+  .title-wrap {
+    h2 {
+      font-size: 40px;
+    }
+  }
+}
+@media (max-width: 730px) {
+  .title-wrap {
+    h2 {
+      font-size: 30px;
+      margin-bottom: 4px;
+    }
+  }
+}
+@media (max-width: 550px) {
+  .title-wrap {
+    h2 {
+      font-size: 25px;
+      margin-bottom: 4px;
+    }
+  }
+}
+@media (max-width: 460px) {
+  .title-wrap {
+    h2 {
+      font-size: 22px;
+      margin-bottom: 4px;
+    }
+  }
+}
+@media (max-width: 410px) {
+  .title-wrap {
+    h2 {
+      font-size: 18px;
+      margin-bottom: 4px;
+      text-wrap: nowrap;
+    }
+  }
+}

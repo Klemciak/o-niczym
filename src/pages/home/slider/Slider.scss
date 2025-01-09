@@ -35,24 +35,21 @@
       &.left-arrow {
         left: 3%;
         transform-origin: center;
-        transform: rotate(-90deg);
+        transform: translateY(-50%) rotate(-90deg);
         &:hover {
           transform: rotate(630deg);
-        }
-        &:active {
-          scale: 0.9;
         }
       }
       &.right-arrow {
         right: 3%;
         transform-origin: center;
-        transform: rotate(90deg);
+        transform: translateY(-50%) rotate(90deg);
         &:hover {
           transform: rotate(-630deg);
         }
-        &:active {
-          scale: 0.9;
-        }
+      }
+      &:active {
+        scale: 2.5;
       }
     }
   }
@@ -63,10 +60,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #fff;
-    background: #333;
     opacity: 1;
     &.first {
       position: absolute;
@@ -85,7 +78,6 @@
       height: 100px;
       z-index: 2;
       transform: translateY(-50%);
-      background-color: rgba(255, 255, 255, 0);
       opacity: 0.8;
     }
     &.second {
@@ -98,6 +90,85 @@
 
     &.fourth {
       top: 75%;
+    }
+  }
+}
+@media (max-width: 1400px), (max-height: 840px) {
+  .slider-wrap {
+    .slides-container {
+      & .arrow {
+        &.left-arrow {
+          left: 5%;
+        }
+        &.right-arrow {
+          right: 5%;
+        }
+      }
+    }
+    .slide {
+      &.second,
+      &.third,
+      &.fourth {
+        right: 10%;
+      }
+    }
+  }
+}
+@media (max-width: 1040px), (max-height: 640px) {
+  .slider-wrap {
+    .slide {
+      &.second,
+      &.third,
+      &.fourth {
+        width: 150px;
+        height: 75px;
+        right: 15%;
+      }
+    }
+  }
+}
+@media (max-width: 660px), (max-height: 420px) {
+  .slider-wrap {
+    .slides-container {
+      & .arrow {
+        scale: 2;
+        &.left-arrow {
+          left: 5%;
+        }
+        &.right-arrow {
+          right: 5%;
+        }
+      }
+    }
+    .slide {
+      &.second,
+      &.third,
+      &.fourth {
+        width: 100px;
+        height: 50px;
+        right: 15%;
+      }
+    }
+  }
+}
+@media (max-width: 475px), (max-height: 250px) {
+  .slider-wrap {
+    .slides-container {
+      & .arrow {
+        scale: 1.5;
+        &:active {
+          scale: 1.2;
+        }
+      }
+    }
+    .slide {
+      &.second,
+      &.third,
+      &.fourth {
+        width: 75px;
+        height: 33px;
+        right: 15%;
+      }
     }
   }
 }

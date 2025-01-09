@@ -21,12 +21,30 @@
     top: 0;
     left: auto;
     font-family: $font-title;
-    font-size: 30px;
+    font-size: 50px;
     padding: 5px 10px;
     width: 100%;
     color: black;
     filter: drop-shadow(-2px -2px 1px $color-blue)
       drop-shadow(2px 2px 1px $color-green);
+  }
+  h3 {
+    font-size: 50px;
+    font-family: $font-title;
+    color: $color-blue;
+    text-shadow: 0 0 15px black, 0 0 15px black, 0 0 45px $color-green,
+      0 0 45px $color-green;
+  }
+  p {
+    margin: 40px 0;
+    font-size: 36px;
+    font-family: $font-text;
+    font-weight: bolder;
+    color: $color-green;
+
+    text-decoration: underline;
+    text-shadow: 0 0 15px black, 0 0 15px black, 0 0 45px $color-blue,
+      0 0 45px $color-blue;
   }
   button {
     padding: 5px 25px;
@@ -53,21 +71,52 @@
     }
   }
 }
-.quiz-wrap h3 {
-  font-size: 50px;
-  font-family: $font-title;
-  color: $color-blue;
-  text-shadow: 0 0 15px black, 0 0 15px black, 0 0 45px $color-green,
-    0 0 45px $color-green;
+@media (max-width: 760px) {
+  .quiz-wrap {
+    height: 500px;
+    h2 {
+      font-size: 30px;
+    }
+    h3 {
+      font-size: 30px;
+    }
+  }
 }
-.quiz-wrap p {
-  margin: 40px 0;
-  font-size: 36px;
-  font-family: $font-text;
-  font-weight: bolder;
-  color: $color-green;
-
-  text-decoration: underline;
-  text-shadow: 0 0 15px black, 0 0 15px black, 0 0 45px $color-blue,
-    0 0 45px $color-blue;
+@media (max-width: 520px) {
+  .quiz-wrap {
+    h2 {
+      font-size: 22px;
+    }
+    h3 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 30px;
+    }
+  }
+}
+@media (max-width: 376px) {
+  .quiz-wrap {
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 26px;
+    }
+    button {
+      margin: 10px;
+      padding: 5px 15px;
+    }
+  }
+}
+@media (max-width: 260px) {
+  .quiz-wrap {
+    button {
+      margin: 5px;
+      padding: 2px 5px;
+    }
+  }
 }

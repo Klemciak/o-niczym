@@ -98,3 +98,73 @@
 .extend4 {
   background-image: url(../../../images/superhero4.jpg);
 }
+@media (max-width: 1250px) {
+  .extend-wrap h2 {
+    font-size: 22px;
+  }
+  .extend-img {
+    div {
+      height: 250px;
+    }
+  }
+}
+@media (max-width: 900px) {
+  .extend-wrap {
+    padding: 0;
+  }
+  .extend-wrap h2 {
+    font-size: 18px;
+  }
+  .extend-img {
+    div {
+      height: 200px;
+    }
+  }
+}
+@media (max-width: 650px) {
+  .extend-wrap {
+    padding: 0;
+  }
+  .extend-wrap h2 {
+    font-size: 15px;
+  }
+  .extend-img {
+    div {
+      height: 150px;
+    }
+  }
+}
+@media (max-width: 540px) {
+  .extend-wrap h2 {
+    font-size: 14px;
+  }
+  .extend-img {
+    div {
+      height: 150px;
+      margin: 0 2px;
+      &:hover {
+        flex-grow: 8;
+      }
+    }
+  }
+  .extend1,
+  .extend2,
+  .extend3,
+  .extend4 {
+    border: 5px black outset;
+  }
+}
+@media (max-width: 400px) {
+  .extend-wrap h2 {
+    font-size: 12px;
+  }
+  .extend-img {
+    div {
+      height: 120px;
+      margin: 0 2px;
+      &:hover {
+        flex-grow: 8;
+      }
+    }
+  }
+}
