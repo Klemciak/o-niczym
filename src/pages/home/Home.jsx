@@ -22,7 +22,7 @@ const Home = () => {
       <div data-aos="fade-up" data-aos-offset="100">
         <Jokes />
       </div>
-      <div data-aos="fade-left">
+      <div data-aos="fade-down">
         <Extend />
       </div>
       <div data-aos="fade-right">

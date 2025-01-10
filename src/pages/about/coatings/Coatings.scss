@@ -11,11 +11,9 @@
     font-weight: bolder;
     padding: 70px;
   }
-  & p:nth-child(1) {
-    background-color: $color-green;
-    position: relative;
-    z-index: 10;
-
+  & p:nth-child(1),
+  & p:nth-child(2),
+  & p:nth-child(3) {
     &::after {
       content: "";
       position: absolute;
@@ -23,9 +21,20 @@
       right: 10%;
       width: 120px;
       height: 120px;
-      background-color: $color-green;
+
       border-radius: 50%;
       transform: translate(-50%, 50%);
+    }
+  }
+  & p:nth-child(1) {
+    background-color: $color-green;
+    position: relative;
+    z-index: 10;
+
+    &::after {
+      bottom: 0;
+      right: 10%;
+      background-color: $color-green;
     }
   }
   & p:nth-child(2) {
@@ -34,15 +43,10 @@
     z-index: 9;
 
     &::after {
-      content: "";
-      position: absolute;
       bottom: 0;
       left: 10%;
-      width: 120px;
-      height: 120px;
-      background-color: $color-blue;
-      border-radius: 50%;
       transform: translate(50%, 50%);
+      background-color: $color-blue;
     }
   }
   & p:nth-child(3) {
@@ -51,20 +55,54 @@
     z-index: 8;
 
     &::after {
-      content: "";
-      position: absolute;
       bottom: 0;
       left: 50%;
-      width: 120px;
-      height: 120px;
       background-color: $color-pink;
-      border-radius: 50%;
-      transform: translate(-50%, 50%);
     }
   }
   & p:nth-child(4) {
     background-color: mix($color-blue, $color-pink);
 
     z-index: 7;
+  }
+}
+@media (max-width: 1000px) {
+  .coatings-wrap {
+    p {
+      font-size: 20px;
+      padding: 30px;
+    }
+    & p:nth-child(1),
+    & p:nth-child(2),
+    & p:nth-child(3) {
+      &::after {
+        width: 60px;
+        height: 60px;
+      }
+    }
+  }
+}
+@media (max-width: 610px) {
+  .coatings-wrap {
+    p {
+      font-size: 15px;
+      padding: 30px 15px;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .coatings-wrap {
+    p {
+      font-size: 12px;
+      padding: 30px 5px;
+    }
+    & p:nth-child(1),
+    & p:nth-child(2),
+    & p:nth-child(3) {
+      &::after {
+        width: 70px;
+        height: 40px;
+      }
+    }
   }
 }

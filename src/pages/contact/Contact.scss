@@ -217,3 +217,164 @@ form {
     }
   }
 }
+@media (max-width: 1170px) {
+  form {
+    width: 70%;
+  }
+}
+@media (max-width: 1000px) {
+  .contact-text {
+    p {
+      width: 80%;
+    }
+  }
+  form {
+    width: 85%;
+  }
+}
+@media (max-width: 800px) {
+  .contact-text {
+    h2 {
+      margin: 20px 0 20px;
+      text-align: center;
+    }
+    p {
+      width: 90%;
+    }
+  }
+  form {
+    width: 95%;
+    .checkbox-box {
+      label {
+        font-size: 15px;
+      }
+    }
+  }
+}
+@media (max-width: 580px) {
+  .contact-text {
+    h2 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  form {
+    width: 98%;
+    padding: 10px 10px;
+    margin-bottom: 50px;
+    input,
+    textarea {
+      margin: 5px 0;
+    }
+    .name-box {
+      input {
+        width: 49%;
+      }
+    }
+    .message-error,
+    .email-error,
+    .number-error {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 530px) {
+  .contact-text {
+    h2 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  form {
+    input,
+    textarea {
+      padding: 5px;
+    }
+    textarea {
+      height: 120px;
+    }
+    .checkbox-box {
+      margin: 5px 0;
+      label {
+        font-size: 12px;
+      }
+    }
+  }
+  .phone,
+  .map {
+    margin-bottom: 20px;
+    h4 {
+      font-size: 30px;
+    }
+    span {
+      font-size: 22px;
+    }
+    iframe {
+      height: 350px;
+    }
+  }
+}
+@media (max-width: 380px) {
+  .contact-text {
+    h2 {
+      font-size: 23px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  form {
+    h3 {
+      font-size: 24px;
+    }
+    input,
+    textarea {
+      margin: 2px 0;
+      font-size: 15px;
+    }
+
+    .checkbox-box {
+      label {
+        font-size: 10px;
+      }
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 22px;
+    }
+  }
+}
+@media (max-width: 330px) {
+  form {
+    .checkbox-box {
+      label {
+        font-size: 8px;
+        .custom-checkbox {
+          margin-right: 5px;
+        }
+      }
+    }
+    .message-error,
+    .email-error,
+    .number-error {
+      font-size: 10px;
+    }
+  }
+  .phone,
+  .map {
+    h4 {
+      font-size: 20px;
+    }
+    span {
+      font-size: 18px;
+    }
+    iframe {
+      height: 300px;
+    }
+  }
+}

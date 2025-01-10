@@ -116,6 +116,7 @@
 }
 @media (max-width: 1040px), (max-height: 640px) {
   .slider-wrap {
+    height: 60vh;
     .slide {
       &.second,
       &.third,
