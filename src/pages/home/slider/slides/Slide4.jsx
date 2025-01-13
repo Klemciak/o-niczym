@@ -1,17 +1,12 @@
 import React from "react";
 import "./Slides.scss";
+import { useTranslations } from "../../../../translations/useTranslations";
 const Slide4 = () => {
+  const t = useTranslations("home");
   return (
     <div className="slide-text fourth">
-      <h2>Stworzenie</h2>
-      <p>
-        Na obrazie widoczne jest niezwykłe stworzenie przypominające hybrydę
-        ważki i kameleona, zachwycające swoją unikalnością. Jego ciało pokryte
-        jest fioletowo-zielonymi łuskami, porośniętymi delikatnym mchem, co
-        nadaje mu naturalny i eteryczny wygląd. Posiada sześć smukłych łap,
-        które wydają się równie zwinne, co silne, oraz duże, przezroczyste
-        skrzydła ważki, mieniące się subtelnymi odcieniami w świetle.
-      </p>
+      <h2>{t.slide4Title}</h2>
+      <p>{t.slide4Text}</p>
     </div>
   );
 };

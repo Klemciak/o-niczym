@@ -1,0 +1,30 @@
+{
+  "pl": {
+    "teamTitle": "Zespół",
+    "teamText": "Gdybyśmy istnieli, to bez dwóch zdań bylibyśmy najlepszym zespołem, jaki kiedykolwiek widział świat. Nasza pasja, której (jeszcze) nie mamy, byłaby inspiracją dla milionów. Nasze umiejętności, choć czysto teoretyczne, osiągnęłyby poziom mistrzowski w każdej możliwej dziedzinie - od zarządzania czasem, którego zawsze mamy za dużo, po kreatywność, która dopiero czeka na aktywację.",
+    "teamAfter": "Współpraca, Zaufanie, Kreatywność, Komunikacja, Harmonia",
+
+    "buildingTitle": "Siedziba",
+    "buildingText": "Gdybyśmy mieli budynek, to byłoby to miejsce tak wspaniałe, że samo patrzenie na nie mogłoby uleczyć stres i podnieść IQ o kilka punktów. Nasza siedziba byłaby ikoną architektury, łączącą nowoczesność z elegancją, a jej udogodnienia przewyższałyby nawet najśmielsze marzenia.Budynek byłby samowystarczalny, napędzany energią czystego entuzjazmu i wyobraźni.",
+    "buildingAfter": "Lokalizacja, Infrastruktura, Ergonomia, Dostępność, Klimat",
+    "coatingsP1": "'Sukces nie jest przypadkiem - to wynik pasji, ciężkiej pracy i odwagi do podejmowania ryzyka.' - ChatGPT",
+    "coatingsP2": "'Wyzwania to nie przeszkody, ale okazje do rozwoju i odkrywania nowych możliwości.' - ChatGPT",
+    "coatingsP3": "'To, jak reagujemy na trudności, definiuje naszą drogę - w każdej sytuacji jest szansa na wzrost.' - ChatGPT",
+    "coatingsP4": "'Wielkie osiągnięcia zaczynają się od małych kroków, które wymagają odwagi, by wyjść poza strefę komfortu.' - ChatGPT",
+    "squadTitle": "Drużyna"
+  },
+  "en": {
+    "teamTitle": "Team",
+    "teamText": "If we existed, there's no doubt we'd be the best team the world has ever seen. Our passion, which we (don't) yet have, would inspire millions. Our skills, though purely theoretical, would reach a master level in every possible field—from time management, of which we always have too much, to creativity that's just waiting to be activated.",
+    "teamAfter": "Collaboration, Trust, Creativity, Communication, Harmony",
+
+    "buildingTitle": "Headquarters",
+    "buildingText": "If we had a building, it would be such an amazing place that just looking at it could cure stress and boost IQ by a few points. Our headquarters would be an icon of architecture, blending modernity with elegance, and its amenities would surpass even the wildest dreams. The building would be self-sufficient, powered by pure enthusiasm and imagination.",
+    "buildingAfter": "Location, Infrastructure, Ergonomics, Accessibility, Atmosphere",
+    "coatingsP1": "'Success is not accidental - i's the result of passion, hard work, and the courage to take risks.' - ChatGPT",
+    "coatingsP2": "'Challenges are not obstacles, but opportunities for growth and discovering new possibilities.' - ChatGPT",
+    "coatingsP3": "'How we respond to difficulties defines our path - in every situation, ther's a chance for growth.' - ChatGPT",
+    "coatingsP4": "'Great achievements start with small steps that require the courage to step out of the comfort zone.' - ChatGPT",
+    "squadTitle": "Squad"
+  }
+}

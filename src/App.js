@@ -8,21 +8,24 @@ import What from "./pages/what/What";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Footer from "./components/footer/Footer";
+import { LanguageProvider } from "./translations/LanguageContext";
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Title />
-        <Nav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/what" element={<What />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Router>
-      <Footer />
+      <LanguageProvider>
+        <Router>
+          <Title />
+          <Nav />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/what" element={<What />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Router>
+        <Footer />
+      </LanguageProvider>
     </div>
   );
 }

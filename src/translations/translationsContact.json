@@ -1,0 +1,40 @@
+{
+  "pl": {
+    "contactHeading": "Nie kontaktujemy się ponieważ nie istniejemy.",
+    "contactText": " Możesz spróbować wypełnić ten formularz, ale pamiętaj - to bardziej eksperyment techniczny niż prawdziwa potrzeba. Wysyłaj na własną odpowiedzialność, bo choć technicznie działa, to nigdzie nie dojdzie… ale przynajmniej będziesz mieć pewność, że wszystko działa, jak powinno!",
+    "formTitle": "Zagadaj",
+    "placeholderName": "Imię",
+    "placeholderSurname": "Nazwisko",
+    "placeholderEmail": "Adres e-mail",
+    "placeholderTitle": "Tytuł",
+    "placeholderMessage": "Wiadomość",
+    "placeholderError1": "uzupełnij chociaż jedno z tych pól",
+    "placeholderError2": "numer musi mieć 9 cyfr",
+    "placeholderError3": "napisz coś do nas",
+    "checkboxText1": "Zgadzam się, by ten checkbox był zaznaczony",
+    "checkboxText2": "I ten też",
+    "formButton": "Wyślij",
+    "formCourtain": "Wysłano",
+    "number": "Nasz numer",
+    "location": "Lokalizacja"
+  },
+  "en": {
+    "contactHeading": "We don't get in touch because we don't exist.",
+    "contactText": "You can try filling out this form, but remember - it's more of a technical experiment than a real necessity. Send it at your own risk, because while it technically works, it won't go anywhere… but at least you'll know everything works as it should!",
+    "formTitle": "Say Hi",
+    "placeholderName": "Name",
+    "placeholderSurname": "Surname",
+    "placeholderEmail": "Email address",
+    "placeholderTitle": "Title",
+    "placeholderMessage": "Message",
+    "placeholderError1": "Fill in at least one of these fields",
+    "placeholderError2": "The number must have 9 digits",
+    "placeholderError3": "Write something to us",
+    "checkboxText1": "I agree for this checkbox to be checked",
+    "checkboxText2": "And this one too",
+    "formButton": "Send",
+    "formCourtain": "Sent",
+    "number": "Our number",
+    "location": "Location"
+  }
+}

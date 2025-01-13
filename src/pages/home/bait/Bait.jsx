@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./Bait.scss";
-
+import { useTranslations } from "../../../translations/useTranslations";
 const Bait = () => {
+  const t = useTranslations("home");
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   const handleMouseMove = (event) => {
@@ -38,16 +39,8 @@ const Bait = () => {
   };
   return (
     <div className="bait-wrap">
-      <h2>Otwórz Drzwi do Niezwykłej Przygody!</h2>
-      <p>
-        Zachęcamy do odkrycia czegoś absolutnie wyjątkowego! Niezależnie od
-        tego, gdzie się znajdujesz i co robisz, ten moment jest idealny, by
-        zrobić coś nowego. Może to zmienić Twoje życie, a może po prostu
-        sprawić, że poczujesz się lepiej. Niezależnie od tego, co się wydarzy -
-        na pewno nie pożałujesz! Więc dlaczego nie spróbować? Czekamy na Ciebie
-        z czymś niesamowitym! Kliknij poniżej i daj się zaskoczyć - niech ta
-        chwila będzie Twoja!
-      </p>
+      <h2>{t.baitTitle}</h2>
+      <p>{t.baitText}</p>
       <div className="bait" onMouseMove={handleMouseMove}>
         <button
           onClick={handleClick}
@@ -55,7 +48,7 @@ const Bait = () => {
             transform: `translate(${mousePosition.x}px, ${mousePosition.y}px)`,
           }}
         >
-          Otwórz!
+          {t.baitButton}
         </button>
       </div>
     </div>

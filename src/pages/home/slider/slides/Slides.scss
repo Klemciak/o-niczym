@@ -12,9 +12,11 @@
   &.fourth {
     h2 {
       opacity: 0;
+      pointer-events: none;
     }
     p {
       opacity: 0;
+      pointer-events: none;
     }
   }
 }
@@ -50,6 +52,7 @@
   }
   &.fourth {
     background-image: url("../../../../images/animal.jpg");
+    background-position: left center;
   }
 
   h2 {

@@ -1,16 +1,12 @@
 import React from "react";
 import "./Slides.scss";
+import { useTranslations } from "../../../../translations/useTranslations";
 const Slide1 = () => {
+  const t = useTranslations("home");
   return (
     <div className="slide-text first">
-      <h2>Kobieta</h2>
-      <p>
-        Na obrazie przedstawiona jest młoda kobieta o subtelnych rysach twarzy i
-        intensywnym, hipnotyzującym spojrzeniu. Jej ciemne włosy opadają
-        swobodnie na ramiona, a zdobiona suknia w zielonych odcieniach podkreśla
-        jej elegancję i delikatność. Zielone światło otaczające postać nadaje
-        całości tajemniczy, baśniowy klimat.
-      </p>
+      <h2>{t.slide1Title}</h2>
+      <p>{t.slide1Text}</p>
     </div>
   );
 };

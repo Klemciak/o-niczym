@@ -62,7 +62,7 @@ const Quiz = () => {
       {!showResult ? (
         <div className="question-container">
           <h3>
-            Pytanie {currentQuestionIndex + 1} z {questionsList.length}
+            Pytanie {currentQuestionIndex + 1} / {questionsList.length}
           </h3>
           <p>{questionsList[currentQuestionIndex]}</p>
           <div className="buttons">

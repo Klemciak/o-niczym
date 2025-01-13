@@ -1,0 +1,20 @@
+{
+  "pl": {
+    "title": "O niczym",
+    "navHome": "Główna",
+    "navWhat": "A tu co?",
+    "navAbout": "O nikim",
+    "navContact": "Kontakt?",
+    "footerCopyright": "Tutaj powinien być tekst o prawach autorskich.",
+    "footerInfo": "Projekt i wykonanie: JA (Klemciak) xd"
+  },
+  "en": {
+    "title": "Nothing",
+    "navHome": "Home",
+    "navWhat": "Here ?",
+    "navAbout": "No one",
+    "navContact": "Contact?",
+    "footerCopyright": "Here should be the copyright text.",
+    "footerInfo": "Design and implementation: ME (Klemciak) xd"
+  }
+}

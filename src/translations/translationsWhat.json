@@ -1,0 +1,74 @@
+{
+  "pl": {
+    "secretTitle": "Przesuń bloki by zobaczyć co kryją!",
+
+    "quizTitle": "Może masz ochotę na szybki quiz ?",
+    "quizNumber": "Pytanie",
+    "quizQuestions": [
+      "Czy lubisz programowanie?",
+      "Czy jesz śniadanie codziennie?",
+      "Czy uprawiasz sport regularnie?",
+      "Czy oglądasz filmy sci-fi?",
+      "Czy umiesz pływać?",
+      "Czy wierzysz w życie pozaziemskie?",
+      "Czy podróżowanie sprawia Ci radość?"
+    ],
+    "quizResults": {
+      "0": "0 punktów! Wygląda na to, że jesteś mistrzem unikania odpowiedzi. To talent sam w sobie!",
+      "1": "1 punkt! Masz potencjał, ale wygląda na to, że Twoim ulubionym zajęciem jest liczenie chmur.",
+      "2": "2 punkty! Hmm, może pora zacząć dzień od kawy? To może pomóc w koncentracji!",
+      "3": "3 punkty! Z naszych badań wynika, że powinieneś uwielbiać pierogi. Smacznego!",
+      "4": "4 punkty! Gratulacje, prawdopodobnie wierzysz w jednorożce i masz ich plakat w pokoju.",
+      "5": "5 punktów! Nieźle! Jesteś typem człowieka, który zawsze ma przy sobie zapasowy długopis.",
+      "6": "6 punktów! Fantastycznie! Prawdopodobnie umiesz rozwiązać kostkę Rubika w mniej niż 3 minuty.",
+      "7": "7 punktów! Absolutna perfekcja! Jesteś jak ninja w świecie quizów!",
+      "default": "Coś poszło nie tak! Spróbuj jeszcze raz."
+    },
+    "quizYes": "Tak",
+    "quizNo": "Nie",
+    "quizScore": "Twoj wynik",
+    "quizAgain": "Rozpocznij ponownie",
+
+    "eyeTitle": "Trzeba mieć oko na wszystko",
+
+    "WorkingWork": "Praca",
+    "WorkingIn": "w",
+    "WorkingProgress": "toku..."
+  },
+  "en": {
+    "secretTitle": "Slide the blocks to see what they hide!",
+
+    "quizTitle": "Maybe you'd like a quick quiz?",
+    "quizNumber": "Question",
+    "quizQuestions": [
+      "Do you like programming?",
+      "Do you eat breakfast every day?",
+      "Do you exercise regularly?",
+      "Do you watch sci-fi movies?",
+      "Can you swim?",
+      "Do you believe in extraterrestrial life?",
+      "Do you enjoy traveling?"
+    ],
+    "quizResults": {
+      "0": "0 points! It looks like you're a master at avoiding answers. That's a talent in itself!",
+      "1": "1 point! You have potential, but it seems like your favorite pastime is counting clouds.",
+      "2": "2 points! Hmm, maybe it's time to start your day with a coffee? That could help with focus!",
+      "3": "3 points! Our research shows that you should love dumplings. Enjoy!",
+      "4": "4 points! Congratulations, you probably believe in unicorns and have their poster in your room.",
+      "5": "5 points! Not bad! You're the type of person who always has a spare pen.",
+      "6": "6 points! Fantastic! You probably can solve a Rubik's Cube in less than 3 minutes.",
+      "7": "7 points! Absolute perfection! You're like a ninja in the world of quizzes!",
+      "default": "Something went wrong! Try again."
+    },
+    "quizYes": "Yes",
+    "quizNo": "No",
+    "quizScore": "Your score",
+    "quizAgain": "Restart",
+
+    "eyeTitle": "Keep an eye on everything",
+
+    "WorkingWork": "Work",
+    "WorkingIn": "in",
+    "WorkingProgress": "progress..."
+  }
+}

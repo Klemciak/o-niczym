@@ -37,7 +37,7 @@
         transform-origin: center;
         transform: translateY(-50%) rotate(-90deg);
         &:hover {
-          transform: rotate(630deg);
+          transform: translateY(-50%) rotate(630deg);
         }
       }
       &.right-arrow {
@@ -45,7 +45,7 @@
         transform-origin: center;
         transform: translateY(-50%) rotate(90deg);
         &:hover {
-          transform: rotate(-630deg);
+          transform: translateY(-50%) rotate(-630deg);
         }
       }
       &:active {

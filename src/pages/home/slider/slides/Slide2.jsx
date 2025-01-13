@@ -1,17 +1,12 @@
 import React from "react";
 import "./Slides.scss";
+import { useTranslations } from "../../../../translations/useTranslations";
 const Slide2 = () => {
+  const t = useTranslations("home");
   return (
     <div className="slide-text second">
-      <h2>Planety</h2>
-      <p>
-        Na obrazie przedstawiono wizję kosmosu, w którym widoczne są liczne
-        planety o intensywnych kolorach fioletu i zieleni. Na pierwszym planie
-        dominująca planeta o żywych odcieniach i wyraźnej teksturze kontrastuje
-        z otaczającą ją zieloną poświatą przestrzeni. Tło wypełnione jest
-        gwiazdami i mniejszymi planetami, tworząc fantastyczną i hipnotyzującą
-        scenerię kosmiczną.
-      </p>
+      <h2>{t.slide2Title}</h2>
+      <p>{t.slide2Text}</p>
     </div>
   );
 };

@@ -5,11 +5,11 @@ const Working = () => {
   return (
     <div className="working-wrap">
       <h2>
-        Work
+        Praca
         <br />
-        in
+        w
         <br />
-        Progress...
+        toku...
       </h2>
       <img src={hand} alt="" />
     </div>

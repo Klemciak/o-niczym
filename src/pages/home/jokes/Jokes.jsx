@@ -5,52 +5,35 @@ import landscape from "../../../images/landscape.jpg";
 import neons from "../../../images/neons.jpg";
 import monitors from "../../../images/monitors.jpg";
 import team from "../../../images/team.jpg";
+import { useTranslations } from "../../../translations/useTranslations";
 const Jokes = () => {
+  const t = useTranslations("home");
   return (
     <div className="jokes-wrap">
       <div className="joke">
-        <img src={archer} alt="" />
-        <h3>Łucznik na celowniku firmy</h3>
-        <p>
-          Firma zatrudniła łucznika, żeby poprawić celność w planach
-          sprzedażowych. Niestety, pierwsze, co zrobił, to trafił w budżet
-          marketingowy!
-        </p>
+        <img src={archer} alt="woman archer" />
+        <h3>{t.joke1title}</h3>
+        <p>{t.joke1text}</p>
       </div>
       <div className="joke">
-        <img src={neons} alt="" />
-        <h3>Biznes w świetle neonów</h3>
-        <p>
-          Firma stworzyła pokój pełen neonów, żeby przyciągnąć klientów. Teraz
-          wszyscy myślą, że otworzyli klub nocny!
-        </p>
+        <img src={neons} alt="neons room" />
+        <h3>{t.joke2title}</h3>
+        <p>{t.joke2text}</p>
       </div>
       <div className="joke">
-        <img src={landscape} alt="" />
-        <h3>Biznesowy krajobraz strat</h3>
-        <p>
-          Firma zleciła projektantowi krajobrazu poprawę widoku z okien biura.
-          Teraz zamiast nudnych raportów widzą, jak pieniądze uciekają przez
-          wodospad w ogrodzie!
-        </p>
+        <img src={landscape} alt="landscape" />
+        <h3>{t.joke3title}</h3>
+        <p>{t.joke3text}</p>
       </div>
       <div className="joke">
-        <img src={monitors} alt="" />
-        <h3>Monitorowy chaos w firmie</h3>
-        <p>
-          Firma stworzyła pokój pełen monitorów, żeby wszystko było pod
-          kontrolą. Teraz nikt nie wie, co robić, ale każdy może to oglądać w
-          jakości 4K!
-        </p>
+        <img src={monitors} alt="monitors room" />
+        <h3>{t.joke4title}</h3>
+        <p>{t.joke4text}</p>
       </div>
       <div className="joke">
-        <img src={team} alt="" />
-        <h3>Zgrany team, zagadkowa firma</h3>
-        <p>
-          Team w firmie działa jak dobrze naoliwiona maszyna - wszyscy mają
-          swoje zadania, ale nikt nie wie, co się dzieje, dopóki nie przyjdzie
-          raport!
-        </p>
+        <img src={team} alt="company team" />
+        <h3>{t.joke5title}</h3>
+        <p>{t.joke5text}</p>
       </div>
     </div>
   );

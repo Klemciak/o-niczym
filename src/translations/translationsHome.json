@@ -1,0 +1,58 @@
+{
+  "pl": {
+    "slide1Title": "Kobieta",
+    "slide1Text": "Na obrazie przedstawiona jest młoda kobieta o subtelnych rysach twarzy i intensywnym, hipnotyzującym spojrzeniu. Jej ciemne włosy opadają swobodnie na ramiona, a zdobiona suknia w zielonych odcieniach podkreśla jej elegancję i delikatność. Zielone światło otaczające postać nadaje całości tajemniczy, baśniowy klimat.",
+    "slide2Title": "Planety",
+    "slide2Text": "Na obrazie przedstawiono wizję kosmosu, w którym widoczne są liczne planety o intensywnych kolorach fioletu i zieleni. Na pierwszym planie dominująca planeta o żywych odcieniach i wyraźnej teksturze kontrastuje z otaczającą ją zieloną poświatą przestrzeni. Tło wypełnione jest gwiazdami i mniejszymi planetami, tworząc fantastyczną i hipnotyzującą scenerię kosmiczną.",
+    "slide3Title": "Facet",
+    "slide3Text": "Na obrazie widoczny jest młody mężczyzna o nowoczesnym wyglądzie, z wyrazistą fryzurą i brodą, co podkreśla jego pewność siebie. Ubrany w fioletową kurtkę, a czarne okulary dodają mu stylowego, miejskiego charakteru. Neonowe światła w tle oraz rozmyte zarysy budynków tworzą dynamiczną, nocną atmosferę dużego miasta.",
+    "slide4Title": "Stworzenie",
+    "slide4Text": "Na obrazie widoczne jest niezwykłe stworzenie przypominające hybrydę ważki i kameleona, zachwycające swoją unikalnością. Jego ciało pokryte jest fioletowo-zielonymi łuskami, porośniętymi delikatnym mchem, co nadaje mu naturalny i eteryczny wygląd. Posiada sześć smukłych łap, które wydają się równie zwinne, co silne, oraz duże, przezroczyste skrzydła ważki, mieniące się subtelnymi odcieniami w świetle.",
+
+    "joke1title": "Łucznik na celowniku firmy",
+    "joke1text": "Firma zatrudniła łucznika, żeby poprawić celność w planach sprzedażowych. Niestety, pierwsze, co zrobił, to trafił w budżet marketingowy!",
+    "joke2title": "Biznes w świetle neonów",
+    "joke2text": "Firma stworzyła pokój pełen neonów, żeby przyciągnąć klientów. Teraz wszyscy myślą, że otworzyli klub nocny!",
+    "joke3title": "Biznesowy krajobraz strat",
+    "joke3text": "Firma zleciła projektantowi krajobrazu poprawę widoku z okien biura. Teraz zamiast nudnych raportów widzą, jak pieniądze uciekają przez wodospad w ogrodzie!",
+    "joke4title": "Monitorowy chaos w firmie",
+    "joke4text": "Firma stworzyła pokój pełen monitorów, żeby wszystko było pod kontrolą. Teraz nikt nie wie, co robić, ale każdy może to oglądać w jakości 4K!",
+    "joke5title": "Zgrany team, zagadkowa firma",
+    "joke5text": " Team w firmie działa jak dobrze naoliwiona maszyna - wszyscy mają swoje zadania, ale nikt nie wie, co się dzieje, dopóki nie przyjdzie raport!",
+
+    "extendBefore": "Jak myślisz, czy superbohaterowie, posiadając ogromną moc, mogliby naprawdę zachować moralność i sprawiedliwość, czy w końcu ich moce doprowadziłyby ich do nadużywania władzy?",
+    "extendAfter": " Poprzednie pytanie prowadzi do następnego, czy supermoce są podobne do talentów - każdy człowiek ma coś wyjątkowego, ale to, jak wykorzystamy swoje zdolności, zależy od naszych wyborów i wartości. Czy więc, podobnie jak w przypadku superbohaterów, nasz talent może zostać nadużyty, jeśli nie będziemy go odpowiednio kierować?",
+
+    "baitTitle": "Otwórz Drzwi do Niezwykłej Przygody!",
+    "baitText": "Zachęcamy do odkrycia czegoś absolutnie wyjątkowego! Niezależnie od tego, gdzie się znajdujesz i co robisz, ten moment jest idealny, by zrobić coś nowego. Może to zmienić Twoje życie, a może po prostu sprawić, że poczujesz się lepiej. Niezależnie od tego, co się wydarzy - na pewno nie pożałujesz! Więc dlaczego nie spróbować? Czekamy na Ciebie z czymś niesamowitym! Kliknij poniżej i daj się zaskoczyć - niech ta chwila będzie Twoja!",
+    "baitButton": "Otwórz!"
+  },
+  "en": {
+    "slide1Title": "Woman",
+    "slide1Text": "The image depicts a young woman with delicate facial features and an intense, hypnotic gaze. Her dark hair falls freely over her shoulders, and her gown, adorned in shades of green, highlights her elegance and delicacy. The green light surrounding her adds a mysterious, fairy-tale atmosphere to the scene.",
+    "slide2Title": "Planets",
+    "slide2Text": "The image presents a vision of space, where numerous planets in intense shades of purple and green are visible. In the foreground, a dominant planet with vibrant hues and distinct texture contrasts with the surrounding green glow of space. The background is filled with stars and smaller planets, creating a fantastic and hypnotic cosmic scene.",
+    "slide3Title": "Men",
+    "slide3Text": "The image features a young man with a modern look, sporting a distinctive hairstyle and beard that emphasize his confidence. He is dressed in a purple jacket, and black sunglasses add a stylish, urban vibe to his appearance. The neon lights in the background, along with the blurred outlines of buildings, create a dynamic, nighttime atmosphere of a big city.",
+    "slide4Title": "Creature",
+    "slide4Text": "The image depicts an extraordinary creature resembling a hybrid of a dragonfly and a chameleon, captivating with its uniqueness. Its body is covered in purple-green scales, adorned with delicate moss, giving it a natural and ethereal appearance. It has six slender limbs, which seem as agile as they are strong, and large, transparent dragonfly wings that shimmer with subtle hues in the light.",
+
+    "joke1title": "The Archer in the Company's Crosshairs",
+    "joke1text": "The company hired an archer to improve accuracy in sales targets. Unfortunately, the first thing he did was hit the marketing budget!",
+    "joke2title": "Business in the Glow of Neon Lights",
+    "joke2text": "The company created a room full of neon lights to attract customers. Now, everyone thinks they've opened a nightclub!",
+    "joke3title": "The Business Landscape of Losses",
+    "joke3text": "The company hired a landscape designer to improve the office view. Now, instead of boring reports, they see money flowing away through a waterfall in the garden!",
+    "joke4title": "Monitor Mayhem in the Company",
+    "joke4text": "The company created a room full of monitors to keep everything under control. Now, no one knows what to do, but everyone can watch it in 4K quality!",
+    "joke5title": "A Tight Team, A Mysterious Company",
+    "joke5text": "The team in the company works like a well-oiled machine - everyone has their tasks, but no one knows what's going on until the report comes in!",
+
+    "extendBefore": "What do you think, could superheroes, possessing immense power, truly maintain morality and justice, or would their powers eventually lead them to abuse their authority?",
+    "extendAfter": "The previous question leads to the next one: are superpowers similar to talents - everyone has something unique, but how we use our abilities depends on our choices and values. So, just like with superheroes, can our talents be abused if we don't properly direct them?",
+
+    "baitTitle": "Open the Door to an Extraordinary Adventure!",
+    "baitText": "We encourage you to discover something truly exceptional! No matter where you are or what you're doing, this moment is perfect to try something new. It could change your life, or simply make you feel better. Whatever happens - you won't regret it! So why not give it a try? We're waiting for you with something amazing! Click below and be surprised - let this moment be yours!",
+    "baitButton": "Open!"
+  }
+}

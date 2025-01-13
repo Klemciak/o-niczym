@@ -7,7 +7,7 @@ import men2 from "../../../images/men2.jpg";
 const Persons = () => {
   return (
     <div className="persons-wrap">
-      <h2>Team</h2>
+      <h2>Drużyna</h2>
       <div className="persons">
         <div className="person">
           <img src={men1} alt="portret Dawida" />
