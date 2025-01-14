@@ -4,10 +4,12 @@ import women1 from "../../../images/women1.jpg";
 import women2 from "../../../images/women2.jpg";
 import men1 from "../../../images/men1.jpg";
 import men2 from "../../../images/men2.jpg";
+import { useTranslations } from "../../../translations/useTranslations";
 const Persons = () => {
+  const t = useTranslations("about");
   return (
     <div className="persons-wrap">
-      <h2>Drużyna</h2>
+      <h2>{t.squadTitle}</h2>
       <div className="persons">
         <div className="person">
           <img src={men1} alt="portret Dawida" />

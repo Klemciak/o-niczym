@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Contact.scss";
-
+import { useTranslations } from "../../translations/useTranslations";
 const Contact = () => {
   const [name, setName] = useState("");
   const [surname, setSurname] = useState("");
@@ -16,6 +16,7 @@ const Contact = () => {
     message: false,
     numberLength: false,
   });
+  const t = useTranslations("contact");
 
   const handlePhoneChange = (e) => {
     let value = e.target.value;
@@ -65,41 +66,33 @@ const Contact = () => {
   return (
     <div className="contact-wrap">
       <div className="contact-text">
-        <h2>Nie kontaktujemy się ponieważ nie istniejemy.</h2>
-        <p>
-          Możesz spróbować wypełnić ten formularz, ale pamiętaj - to bardziej
-          eksperyment techniczny niż prawdziwa potrzeba. Wysyłaj na własną
-          odpowiedzialność, bo choć technicznie działa, to nigdzie nie dojdzie…
-          ale przynajmniej będziesz mieć pewność, że wszystko działa, jak
-          powinno!
-        </p>
+        <h2>{t.contactHeading}</h2>
+        <p>{t.contactText}</p>
         <form onSubmit={handleSubmit}>
-          <h3>Zagadaj</h3>
+          <h3>{t.formTitle}</h3>
           <div className="name-box">
             <input
               type="text"
-              placeholder="Imię"
+              placeholder={t.placeholderName}
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
             <input
               type="text"
-              placeholder="Nazwisko"
+              placeholder={t.placeholderSurname}
               value={surname}
               onChange={(e) => setSurname(e.target.value)}
             />
           </div>
           <input
             type="email"
-            placeholder="Adres e-mail"
+            placeholder={t.placeholderEmail}
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className={formErrors.emailOrNumber ? "input-error" : ""}
           />
           {formErrors.emailOrNumber && (
-            <span className="email-error">
-              uzupełnij chociaż jedno z tych pól
-            </span>
+            <span className="email-error">{t.placeholderError1}</span>
           )}
           <input
             type="tel"
@@ -113,23 +106,23 @@ const Contact = () => {
             }`}
           />
           {formErrors.numberLength && (
-            <span className="number-error">numer musi mieć 9 cyfr</span>
+            <span className="number-error">{t.placeholderError2}</span>
           )}
           <input
             type="text"
-            placeholder="Tytuł"
+            placeholder={t.placeholderTitle}
             value={title}
             onChange={(e) => setTitle(e.target.value)}
           />
           <textarea
             name="message"
-            placeholder="wiadomość"
+            placeholder={t.placeholderMessage}
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             className={formErrors.message ? "input-error" : ""}
           />
           {formErrors.message && (
-            <span className="message-error">napisz coś do nas</span>
+            <span className="message-error">{t.placeholderError3}</span>
           )}
           <div className="checkbox-box">
             <label>
@@ -143,7 +136,7 @@ const Contact = () => {
                 />
                 <div className="custom"></div>
               </div>
-              Zgadzam się, by ten checkbox był zaznaczony
+              {t.checkboxText1}
             </label>
           </div>
           <div className="checkbox-box">
@@ -158,21 +151,21 @@ const Contact = () => {
                 />
                 <div className="custom"></div>
               </div>
-              I ten też
+              {t.checkboxText2}
             </label>
           </div>
-          <button type="submit">Wyślij</button>
+          <button type="submit"> {t.formButton}</button>
           <div className={`courtain ${isSubmitted ? "active" : ""}`}>
-            Wysłano
+            {t.formCourtain}
           </div>
         </form>
       </div>
       <div className="phone">
-        <h4>Nasz numer</h4>
+        <h4>{t.number}</h4>
         <span>777-555-777</span>
       </div>
       <div className="map">
-        <h4>Lokalizacja</h4>
+        <h4>{t.location}</h4>
         <iframe
           title="map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7941.403058351496!2d19.93482225509498!3d50.06271970693785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b120455da67%3A0xc3c7f5071b750d33!2zUnluZWsgR8WCw7N3bnk!5e1!3m2!1spl!2spl!4v1735874876932!5m2!1spl!2spl"

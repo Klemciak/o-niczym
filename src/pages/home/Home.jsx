@@ -25,10 +25,10 @@ const Home = () => {
       <div data-aos="fade-down">
         <Extend />
       </div>
-      <div data-aos="fade-right">
+      <div data-aos="fade-up">
         <Bait />
       </div>
-      <div data-aos="fade-up">
+      <div data-aos="fade-down">
         <Socialmedia />
       </div>
     </div>

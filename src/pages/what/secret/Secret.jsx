@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./Secret.scss";
 import Wave from "../../../images/hii-wave.gif";
-
+import { useTranslations } from "../../../translations/useTranslations";
 const RevealBoard = () => {
+  const t = useTranslations("what");
   const [positions, setPositions] = useState([
     { id: 1, x: 55, y: 70 }, // Wartości w procentach
     { id: 2, x: 40, y: 55 },
@@ -67,7 +68,7 @@ const RevealBoard = () => {
 
   return (
     <div className="secret-wrap">
-      <h2>Przesuń bloki by zobaczyć co kryją!</h2>
+      <h2>{t.secretTitle}</h2>
       <img src={Wave} alt="gif-wave" />
       {positions.map((square) => (
         <div

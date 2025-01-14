@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navigation.scss";
+import { useTranslations } from "../../translations/useTranslations";
+import LanguageSwitcher from "../../translations/LanguageSwitcher";
 const Navigation = () => {
+  const t = useTranslations("components");
   const [hamburger, setHamburger] = useState(false);
   const toggleHamburger = () => {
     setHamburger(!hamburger);
@@ -18,6 +21,7 @@ const Navigation = () => {
       >
         ☰
       </button>
+      <LanguageSwitcher />
       <nav className={`nav-wrap ${hamburger ? "active" : ""}`}>
         <button className="hamburger-close" onClick={toggleHamburger}>
           &#x2715;
@@ -25,22 +29,22 @@ const Navigation = () => {
         <ul className="nav-list">
           <li className="nav-element">
             <NavLink to="/" onClick={handleScrollToTop}>
-              Główna
+              {t.navHome}
             </NavLink>
           </li>
           <li className="nav-element">
             <NavLink to="/what" onClick={handleScrollToTop}>
-              A tu co?
+              {t.navWhat}
             </NavLink>
           </li>
           <li className="nav-element">
             <NavLink to="/about" onClick={handleScrollToTop}>
-              O nikim
+              {t.navAbout}
             </NavLink>
           </li>
           <li className="nav-element">
             <NavLink to="/contact" onClick={handleScrollToTop}>
-              Kontakt?
+              {t.navContact}
             </NavLink>
           </li>
         </ul>

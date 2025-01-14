@@ -1,24 +1,14 @@
 import React from "react";
 import "./Coatings.scss";
+import { useTranslations } from "../../../translations/useTranslations";
 const Coatings = () => {
+  const t = useTranslations("about");
   return (
     <div className="coatings-wrap">
-      <p>
-        "Sukces nie jest przypadkiem - to wynik pasji, ciężkiej pracy i odwagi
-        do podejmowania ryzyka." - ChatGPT
-      </p>
-      <p>
-        "Wyzwania to nie przeszkody, ale okazje do rozwoju i odkrywania nowych
-        możliwości." - ChatGPT
-      </p>
-      <p>
-        "To, jak reagujemy na trudności, definiuje naszą drogę - w każdej
-        sytuacji jest szansa na wzrost." - ChatGPT
-      </p>
-      <p>
-        "Wielkie osiągnięcia zaczynają się od małych kroków, które wymagają
-        odwagi, by wyjść poza strefę komfortu." - ChatGPT
-      </p>
+      <p>{t.coatingsP1}</p>
+      <p>{t.coatingsP2}</p>
+      <p>{t.coatingsP3}</p>
+      <p>{t.coatingsP4}</p>
     </div>
   );
 };

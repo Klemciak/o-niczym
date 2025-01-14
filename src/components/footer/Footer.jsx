@@ -1,11 +1,12 @@
 import React from "react";
 import "./Footer.scss";
+import { useTranslations } from "../../translations/useTranslations";
 const Footer = () => {
+  const t = useTranslations("components");
   return (
     <div className="footer-wrap">
       <h3>
-        &#169; Tutaj powinien być tekst o prawach autorskich. <br /> Projekt i
-        wykonanie: JA (Klemciak) xd
+        &#169; {t.footerCopyright} <br /> {t.footerInfo}
       </h3>
     </div>
   );

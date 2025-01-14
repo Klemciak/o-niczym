@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Img3d.scss";
 import "@google/model-viewer";
-
+import { useTranslations } from "../../../translations/useTranslations";
 const Img3d = () => {
+  const t = useTranslations("what");
   const [cameraOrbit, setCameraOrbit] = useState("50deg 90deg auto");
   const imgWrapRef = useRef(null);
 
@@ -41,7 +42,7 @@ const Img3d = () => {
 
   return (
     <div className="img-wrap" ref={imgWrapRef}>
-      <h2>Trzeba mieć oko na wszystko</h2>
+      <h2>{t.eyeTitle}</h2>
       <model-viewer
         src="/img3d/eye_for_free.glb"
         alt="Model oka 3D"
