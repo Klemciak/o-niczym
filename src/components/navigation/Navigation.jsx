@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import "./Navigation.scss";
 import { useTranslations } from "../../translations/useTranslations";
 import LanguageSwitcher from "../../translations/LanguageSwitcher";
+import Socialmedia from "../../pages/home/socialmedia/Socialmedia";
 const Navigation = () => {
   const t = useTranslations("components");
   const [hamburger, setHamburger] = useState(false);
@@ -48,6 +49,10 @@ const Navigation = () => {
             </NavLink>
           </li>
         </ul>
+        <div className="nav-socialmedia">
+          <h3>Odwiedź nas na naszych socialmediach:</h3>
+          <Socialmedia />
+        </div>
       </nav>
     </>
   );
