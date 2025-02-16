@@ -8,10 +8,9 @@
   height: 700px;
   margin-top: 80px;
   margin-bottom: 80px;
-  background-color: rgba(0, 0, 0, 0.96);
+  background-color: rgba(0, 0, 0, 0.6);
   border: 10px solid rgba(0, 0, 0, 0.9);
-  box-shadow: 0px 0px 20px $color-green, 0px 0px 20px $color-green,
-    0px 0px 20px $color-green;
+  box-shadow: 0px 0px 20px $color-green;
   border-radius: 25px;
   z-index: 30;
   pointer-events: none;
@@ -22,7 +21,7 @@
     padding: 5px 10px;
     text-align: center;
     color: black;
-    animation: shadow 3s infinite;
+    animation: shadow 5s infinite;
   }
 }
 @keyframes shadow {

@@ -19,14 +19,12 @@
 }
 .socialmedia-wrap img {
   opacity: 0.8;
-  filter: drop-shadow(-6px -6px 4px $color-blue)
-    drop-shadow(6px 6px 4px $color-green);
+  filter: drop-shadow(-6px -6px 2px $color-blue)
+    drop-shadow(6px 6px 2px $color-green);
   transition: 0.3s;
   &:hover {
-    filter: drop-shadow(-6px -6px 4px $color-blue)
-      drop-shadow(6px 6px 4px $color-green)
-      drop-shadow(-6px -6px 4px $color-blue)
-      drop-shadow(6px 6px 4px $color-green);
+    filter: drop-shadow(-6px -6px 2px $color-blue)
+      drop-shadow(6px 6px 2px $color-green);
   }
 }
 @media (max-width: 500px) {
